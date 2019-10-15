@@ -69,3 +69,11 @@ Processing by PostsController#new as HTML
 Completed 200 OK in 352ms (Views: 346.4ms | ActiveRecord: 1.0ms)
 
 
+Started GET "/posts/" for 63.98.217.210 at 2019-10-15 19:16:06 +0000
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 17ms (Views: 13.3ms | ActiveRecord: 0.9ms)
+
+
